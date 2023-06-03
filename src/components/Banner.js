@@ -10,8 +10,8 @@ function Banner(props) {
             {props.desc}
         </p>
         <Button 
-        primary={props.primary}
-        secondary={props.secondary}
+          primary={props.primary}
+          secondary={props.secondary}
         ></Button>
     </section>
   )
