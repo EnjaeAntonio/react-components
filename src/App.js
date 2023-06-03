@@ -11,7 +11,7 @@ function App() {
   const headerBlogs = 'Blogs';
   const headerContact ='Contact Us';
   const bannerTitle = 'Having fun with React!';
-  const bannerDesc = 'I\'m really enjoying building this new React app. Learning about components and props is interesting. It\'s great how they make the code more organized and easier to manage. It\'s quite satisfying to see all the separate parts come together into a functioning app. I\'m looking forward to mastering more aspects of React';
+  const bannerDesc = 'I\'m really enjoying building this new React app. Learning about components and props is interesting. It\'s great how they make the code more organized and easier to manage. It\'s quite satisfying to see all the separate parts come together into a functioning app. I\'m looking forward to mastering more aspects of React!';
   const btnPrimary = 'Primary';
   const btnSecondary = 'Secondary';
   const copyright = '2023 React Components'
