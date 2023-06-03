@@ -5,7 +5,7 @@ function Header(props) {
             <div className="title">
                 <h1>{props.title}</h1>
             </div>
-            <nav>
+            <nav className="header-nav">
                 <ul>
                     <li><a href="">{props.home}</a></li>
                     <li><a href="">{props.about}</a></li>

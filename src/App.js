@@ -14,7 +14,30 @@ function App() {
   const bannerDesc = 'This is just a basic paragraph for now but I will add some more relatable content later!';
   const btnPrimary = 'Primary';
   const btnSecondary = 'Secondary';
-  
+
+  const movies = [
+    {
+      "id": 1000,
+      "name": "The Batman",
+      "img": "https://raw.githubusercontent.com/mrspecht/media/main/img/the-batman.jpg"
+    },
+    {
+      "id": 1001,
+      "name": "Avengers: Infinity War",
+      "img": "https://raw.githubusercontent.com/mrspecht/media/main/img/avengers-infinity-war.jpg"
+    },
+    {
+      "id": 1002,
+      "name": "The Flash",
+      "img": "https://raw.githubusercontent.com/mrspecht/media/main/img/the-flash.jpg"
+    },
+    {
+      "id": 1003,
+      "name": "The Grand Budapest Hotel",
+      "img": "https://raw.githubusercontent.com/mrspecht/media/main/img/the-grand-budapest-hotel.jpg"
+    },
+  ];
+
   return (
     <main>
       <Header
@@ -30,7 +53,7 @@ function App() {
         primary={btnPrimary}
         secondary={btnSecondary}
       />
-      <Gallery>
+      <Gallery movies={movies}>
 
       </Gallery>
       <Footer>

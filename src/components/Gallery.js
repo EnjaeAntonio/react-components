@@ -1,19 +1,16 @@
-function Gallery() {
+function Gallery(props) {
   return (
     <section className="gallery">
-
+        <div className="grid lg-4">
+            {props.movies.map((movie, index) => (
+                <div key={index}>
+                    <img src={movie.img} alt={movie.name} className="image" />
+                    <p>{movie.name}</p>
+                </div>
+            ))}
+        </div>
     </section>
   )
 }
 
-/*
-      <div className="grid lg-4">
-        {props.users.map((user, index) => (
-            <div className="user" key={index}>
-                <p>{user.name} | {user.age}</p>
-                <p>{user.id}</p>
-            </div>
-        ))};
-    </div>
-*/
 export default Gallery;
