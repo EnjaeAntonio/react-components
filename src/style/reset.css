@@ -68,7 +68,7 @@ html {
 }
 
 body {
-  background: var(--app-dark-bg);
+  background: var(--app-light-bg);
   height: 100%;
 }
 

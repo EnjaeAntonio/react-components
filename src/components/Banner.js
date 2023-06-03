@@ -1,17 +1,17 @@
 import Button from "./Button";
 
-function Banner() {
+function Banner(props) {
   return (
     <section className="banner">
         <h1>
-            Having fun with React!
+            {props.title}
         </h1>
         <p>
-            This is just a basic paragraph for now but I will add some more relatable content later!
+            {props.desc}
         </p>
         <Button 
-        primary="Primary"
-        secondary="Secondary"
+        primary={props.primary}
+        secondary={props.secondary}
         ></Button>
     </section>
   )

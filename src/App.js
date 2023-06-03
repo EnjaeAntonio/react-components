@@ -10,7 +10,11 @@ function App() {
   const headerAbout = 'About Us';
   const headerBlogs = 'Blogs';
   const headerContact ='Contact Us';
-
+  const bannerTitle = 'Having fun with React!';
+  const bannerDesc = 'This is just a basic paragraph for now but I will add some more relatable content later!';
+  const btnPrimary = 'Primary';
+  const btnSecondary = 'Secondary';
+  
   return (
     <main>
       <Header
@@ -20,9 +24,18 @@ function App() {
         blogs={headerBlogs}
         contact={headerContact}
       />
-      <Banner>
-        
-      </Banner>
+      <Banner
+        title={bannerTitle}
+        desc={bannerDesc}
+        primary={btnPrimary}
+        secondary={btnSecondary}
+      />
+      <Gallery>
+
+      </Gallery>
+      <Footer>
+
+      </Footer>
     </main>
   );
 }
