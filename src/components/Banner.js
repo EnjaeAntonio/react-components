@@ -9,10 +9,17 @@ function Banner(props) {
         <p>
             {props.desc}
         </p>
+        <div className="button-wrapper">
         <Button 
-          primary={props.primary}
-          secondary={props.secondary}
-        ></Button>
+          isPrimary={false}
+          text={props.secondary}
+        />
+        <Button 
+          isPrimary={true}
+          text={props.primary}
+        />
+        </div>
+
     </section>
   )
 }
